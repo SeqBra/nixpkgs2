@@ -37,8 +37,8 @@ stdenv.mkDerivation (finalAttrs: {
   src = fetchFromGitHub {
     owner = "deskflow";
     repo = "deskflow";
-    tag = "v${finalAttrs.version}";
-    hash = "sha256-XcSG47Ysjn+wrJH5DC/XXGXcneXcW7xIhAn6sguuv+s=";
+    rev = "40f743fb379828dabce60dcec28a875e4864390c";
+    hash = "sha256-Dntxj7lMOPMOmzQE73852tTE6Yr+fmD2U6rfqDaYsCc=";
   };
 
   postPatch = ''
